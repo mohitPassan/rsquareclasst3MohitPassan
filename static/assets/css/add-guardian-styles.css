@@ -1,13 +1,19 @@
 /* Breadcrumbs */
 
+#breadcrumb {
+    padding-left: 20px;
+    margin-bottom: 3rem;
+}
+
 #breadcrumb li {
     float: left;
+    list-style: none;
 }
 
 #breadcrumb li a {
     color: #FFF;
     display: block;
-    background: #3498db;
+    background: #72c3ad;
     text-decoration: none;
     position: relative;
     height: 40px;
@@ -18,16 +24,16 @@
 }
 
 #breadcrumb li:nth-child(even) a {
-    background-color: #2980b9;
+    background-color: #35a989;
 }
 
 #breadcrumb li:nth-child(even) a:before {
-    border-color: #2980b9;
+    border-color: #35a989;
     border-left-color: transparent;
 }
 
 #breadcrumb li:nth-child(even) a:after {
-    border-left-color: #2980b9;
+    border-left-color: #35a989;
 }
 
 #breadcrumb li:first-child a {
@@ -56,7 +62,7 @@
     content: "";
     position: absolute;
     top: 0;
-    border: 0 solid #3498db;
+    border: 0 solid #72c3ad;
     border-width: 20px 10px;
     width: 0;
     height: 0;
@@ -70,7 +76,7 @@
 #breadcrumb li a:after {
     left: 100%;
     border-color: transparent;
-    border-left-color: #3498db;
+    border-left-color: #72c3ad;
 }
 
 #breadcrumb li a:hover {
@@ -99,6 +105,12 @@
     border-left-color: #16a085;
 }
 
+.breadCrumbButton {
+    height: 30px;
+    margin: 2px;
+    margin-top: 3px;
+}
+
 /* Buttons */
 
 .buttons_container {
@@ -119,6 +131,10 @@
     margin-top: 1.5rem;
 }
 
+.list-group-item {
+    cursor: pointer;
+}
+
 #guardians {
     border-left: none;
     border-right: none;
@@ -134,13 +150,10 @@
     background-color: rgba(249, 248, 248, 0.77);
 }
 
-i {
-    margin-right: 0.5rem;
-}
-
-.fa-ellipsis-v {
+.fa-ellipsis-v, .fa-bars, .fa-plus {
     position: relative;
     top: 3px;
+    margin-right: 0.5rem;
 }
 
 /* Form */
