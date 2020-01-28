@@ -166,3 +166,8 @@
     display: flex;
     justify-content: center;
 }
+
+.col-sm-2 {
+    max-width: 25% !important;
+    flex: 0 0 23% !important;
+}
