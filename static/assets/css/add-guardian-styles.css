@@ -156,6 +156,11 @@
     margin-right: 0.5rem;
 }
 
+.fa-bars, .fa-plus {
+    position: relative;
+    top: 1px;
+}
+
 /* Form */
 .modal-footer, .modal-header {
     display: flex;
